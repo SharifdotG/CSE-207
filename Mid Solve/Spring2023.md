@@ -176,10 +176,10 @@ int main() {
 ```
 
 **Output:**
-Length of the maximum consecutive sales streak with positive sales in both stores: 3
+Length of the maximum consecutive sales streak with positive sales in both stores: 4
 
 **Explanation:**
-The longest consecutive sales streak during which both stores had positive sales on the same day is 3 days. This occurs from the 3rd to the 5th day of the week, where both stores had sales of [3, 5, 2].
+The longest consecutive sales streak during which both stores had positive sales on the same day is 4 days. This occurs from the 3rd to the 7th day of the week, where both stores had sales of [3, 5, 2, 1].
 
 ## 2. b) Which algorithmic approach did you use in your answer 2a? Analyze its time complexity
 
