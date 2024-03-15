@@ -26,7 +26,14 @@
 
 ## **Algorithm**
 
-1. Star
+1. If Right element is greater than or equal to Left element,
+2. Calculate the middle element.
+3. If the middle element is equal to the target element, return the middle element.
+4. If the middle element is greater than the target element, recursively search the left half of the array.
+5. If the middle element is less than the target element, recursively search the right half of the array.
+6. If the target element is not found, return -1.
+
+---
 
 ## **Pseudocode**
 
@@ -49,5 +56,47 @@ int binarySearch(int array[], int target, int left, int right) {
     return -1;
 }
 ```
+
+---
+
+## **Simulation/Visualization**
+
+<p align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Binary-search-work.gif" alt="Binary Search Algorithm"/>
+</p>
+
+- **Web Based Resources**:
+  - [Geeks For Geeks](https://www.geeksforgeeks.org/binary-search/)
+  - [javatpoint](https://www.javatpoint.com/binary-search)
+  - [Programiz](https://www.programiz.com/dsa/binary-search)
+- **Video Resources**:
+  - [Binary search in 4 minutes - Michael Sambol](https://www.youtube.com/watch?v=fDKIpRe8GW4)
+  - [Binary Search Algorithm in 100 Seconds - Fireship](https://www.youtube.com/watch?v=MFhxShGxHWc)
+  - [2.6.2 Binary Search Recursive Method - Abdul Bari](https://www.youtube.com/watch?v=uEUXGcc2VXM)
+
+---
+
+## **Complexity Analysis**
+
+- **Time Complexity**:
+  - Best Case: O(1): The target element is found at the middle element.
+  - Average Case: O(log n): The target element is found after a few iterations.
+  - Worst Case: O(log n): The target element is found after a few iterations.
+- **Space Complexity**: O(1): The space complexity is constant.
+
+---
+
+## **Calculating the Time Complexity Using Master Method**
+
+- **Master Theorem**: T(n) = a * T(n/b) + f(n<sup>c</sup>)
+  - If f(n) = O(n<sup>c</sup>), where c < log<sub>b</sub>a, then T(n) = O(n<sup>log<sub>b</sub>a</sup>)
+  - If f(n) = O(n<sup>c</sup>), where c = log<sub>b</sub>a, then T(n) = O(n<sup>c</sup> * log n)
+  - If f(n) = O(n<sup>c</sup>), where c > log<sub>b</sub>a, then T(n) = O(f(n))
+  - **Binary Search**: T(n) = T(n/2) + O(1)
+    - a = 1, b = 2, f(n) = O(1)
+    - c = 0, log<sub>2</sub>1 = 0
+    - c = log<sub>2</sub>1
+    - T(n) = O(log n)
+    - **Time Complexity**: O(log n)
 
 ---
