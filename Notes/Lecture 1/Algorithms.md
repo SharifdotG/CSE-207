@@ -1,6 +1,8 @@
 # **CSE 207 - Algorithms - Notes - Algorithm**
 
-![Alt Text](https://i.pinimg.com/originals/63/64/77/636477067a9206def4911cbb9c317576.gif)
+<p align="center">
+    <img src="https://i.pinimg.com/originals/cb/67/e9/cb67e94f7dc44ac7ea0c333a8e44fc1f.gif" alt="Algorithm">
+</p>
 
 ---
 
