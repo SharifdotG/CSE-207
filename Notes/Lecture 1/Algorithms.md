@@ -1,5 +1,7 @@
 # **CSE 207 - Algorithms - Notes - Algorithm**
 
+![Alt Text](https://i.pinimg.com/originals/63/64/77/636477067a9206def4911cbb9c317576.gif)
+
 ---
 
 ## **What is an Algorithm?**
