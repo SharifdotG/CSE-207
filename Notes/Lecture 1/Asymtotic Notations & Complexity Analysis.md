@@ -1,4 +1,4 @@
-# **CSE 207 - Algorithms - Notes - Asymtotic Notations & Complextity Analysis**
+# **CSE 207 - Algorithms - Notes - Asymtotic Notations & Complexity Analysis**
 
 ---
 
