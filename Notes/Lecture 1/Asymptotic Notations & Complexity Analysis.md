@@ -1,5 +1,9 @@
 # **CSE 207 - Algorithms - Notes - Asymptotic Notations & Complexity Analysis**
 
+<p align="center">
+    <img src="https://scaler.com/topics/images/graphical-representation-for-the-asymptotic-notations.webp" alt="Asymptotic Notations & Complexity Analysis">
+</p>
+
 ---
 
 ## **Complexity of an Algorithm**
@@ -37,3 +41,139 @@
   - `f(n)` is `O(g(n))` if and only if there exists a positive constant `c` and an integer constant `n0` such that `0 ≤ f(n) ≤ cg(n)` for all `n ≥ n0`. This is the formal definition of `O(g(n))`.
 - For a sufficiently large `n`, the running time of an algorithm is at most `O(g(n))`.
 - For example, the function `f(n) = 3n^2 + 2n + 1` is `O(n^2)` because `3n^2 + 2n + 1 ≤ 6n^2` for all `n ≥ 1`.
+
+<p align="center">
+    <img src="https://cdn.kastatic.org/ka-perseus-images/501211c02f4c6765f60f23842450e1151cfd9c89.png" alt="O - Notation">
+</p>
+
+- The function g(n) appearing within the O() typically omits lower order terms and constant factors. For example, `O(n^2)` is the set of functions `f(n)` such that `f(n) ≤ cn^2` for some constant `c` and all `n ≥ n0` for some constant `n0`.
+- Let's consider the following functions:
+  - y1 = 3n^2 + 2n + 1
+  - y2 = 6n^2 + 4n
+  - y3 = 3n^2
+- What is growth rate of each function?
+  - y1 = O(n^2)
+  - y2 = O(n^2)
+  - y3 = O(n^2)
+    - All of these equations are quadratic, but the constants and lower order terms are different.
+
+---
+
+## **Ω - Notation**
+
+- When we only want to know the lower bound of an algorithm, we use Omega Notation.
+- For a given function `g(n)`, we denote by `Ω(g(n))` the set of functions:
+  - `Ω(g(n)) = { f(n): there exist positive constants c and n0 such that 0 ≤ cg(n) ≤ f(n) for all n ≥ n0 }`
+  - `f(n)` is `Ω(g(n))` if and only if there exists a positive constant `c` and an integer constant `n0` such that `0 ≤ cg(n) ≤ f(n)` for all `n ≥ n0`. This is the formal definition of `Ω(g(n))`.
+- For a sufficiently large `n`, the running time of an algorithm is at least `Ω(g(n))`.
+- For example, the function `f(n) = 3n^2 + 2n + 1` is `Ω(n^2)` because `3n^2 + 2n + 1 ≥ 3n^2` for all `n ≥ 1`.
+
+<p align="center">
+    <img src="https://cdn.kastatic.org/ka-perseus-images/c02e6916d15bacae7a936381af8c6e5a0068f4fd.png" alt="Ω - Notation">
+</p>
+
+---
+
+## **Θ - Notation**
+
+- When we want to know both the upper and lower bounds of an algorithm, we use Theta Notation.
+- For a given function `g(n)`, we denote by `Θ(g(n))` the set of functions:
+  - `Θ(g(n)) = { f(n): there exist positive constants c1, c2, and n0 such that 0 ≤ c1g(n) ≤ f(n) ≤ c2g(n) for all n ≥ n0 }`
+  - `f(n)` is `Θ(g(n))` if and only if there exist positive constants `c1`, `c2`, and an integer constant `n0` such that `0 ≤ c1g(n) ≤ f(n) ≤ c2g(n)` for all `n ≥ n0`. This is the formal definition of `Θ(g(n))`.
+- For a sufficiently large `n`, the running time of an algorithm is between `c1g(n)` and `c2g(n)`.
+- For example, the function `f(n) = 3n^2 + 2n + 1` is `Θ(n^2)` because `3n^2 + 2n + 1` is between `3n^2` and `6n^2` for all `n ≥ 1`.
+
+<p align="center">
+    <img src="https://cdn.kastatic.org/ka-perseus-images/c14a48f24cae3fd563cb3627ee2a74f56c0bcef6.png" alt="Θ - Notation">
+</p>
+
+---
+
+## **Complexity Analysis**
+
+- Complexity Analysis is the process of analyzing the time and space complexity of an algorithm.
+- Based on the above three notations, we can analyze the time and space complexity of an algorithm.
+- There are three types of complexity analysis:
+  - **Best Case Complexity**: The minimum time or space taken by an algorithm. It is denoted by `T(n)`.
+  - **Average Case Complexity**: The average time or space taken by an algorithm. It is denoted by `T(n)`.
+  - **Worst Case Complexity**: The maximum time or space taken by an algorithm. It is denoted by `T(n)`.
+
+<p align="center">
+    <img src="https://learntocodetogether.com/wp-content/uploads/2019/08/download-1-1.png" alt="Complexity Analysis">
+</p>
+
+---
+
+## **Complexity Analysis Between Two Algorithms**
+
+### **Linear Search vs Binary Search**
+
+<p align="center">
+    <img src="https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/binary-and-linear-search-animations.gif" alt="Binary Search Time Complexity">
+</p>
+
+- **Linear Search**
+
+```cpp
+int linearSearch(int arr[], int n, int target) {
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == target) {
+            return i;
+        }
+    }
+
+    return -1;
+}
+```
+
+- **Time Complexity**:
+  - Best Case: `O(1)`
+  - Average Case: `O(n)`
+  - Worst Case: `O(n)`
+- **Space Complexity**: `O(1)`
+
+- **Binary Search**
+
+```cpp
+int binarySearch(int arr[], int n, int target) {
+    int left = 0, right = n - 1;
+
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+
+        if (arr[mid] == target) {
+            return mid;
+        } else if (arr[mid] < target) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
+
+    return -1;
+}
+```
+
+- **Time Complexity**:
+  - Best Case: `O(1)`
+  - Average Case: `O(log n)`
+  - Worst Case: `O(log n)`
+- **Space Complexity**: `O(1)`
+
+- **Comparison**:
+  - In the best case, both algorithms have the same time complexity.
+  - In the average and worst cases, the binary search algorithm is more efficient than the linear search algorithm.
+  - The binary search algorithm has a time complexity of `O(log n)`, while the linear search algorithm has a time complexity of `O(n)`. This means that the binary search algorithm is more efficient than the linear search algorithm.
+
+### A Look At How Can Analyze The Time Complexity of Binary Search
+
+- In the beginning, the size of the array is `n`.
+- After the first iteration, the size of the array becomes `n / 2`.
+- After the second iteration, the size of the array becomes `n / 4` and so on.
+- After the `k`th iteration, the size of the array becomes `n / 2^k`.
+- When the size of the array becomes `1`, the algorithm stops.
+  - `n / 2^k = 1`
+  - => `2^k = n`
+  - => `k = log n`
+
+---
