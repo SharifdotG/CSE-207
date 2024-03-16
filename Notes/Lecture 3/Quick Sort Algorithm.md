@@ -88,7 +88,35 @@ void quickSort(int array[], int left, int right) {
 - **Web Based Resources**:
   - [**GeeksforGeeks**](https://www.geeksforgeeks.org/quick-sort/)
   - [**Programiz**](https://www.programiz.com/dsa/quick-sort)
-  - [**Fully** Understood](https://fullyunderstood.com/wp-content/uploads/2019/09/quicksort.gif)
+  - [**JavaTPoint**](https://www.javatpoint.com/quick-sort)
 - **Video Resources**:
-  - [**GeeksforGeeks**](https://www.youtube.com/watch?v=COk73cpQbFQ)
-  - [**HackerRank**](https://www.youtube.com/watch?v=SLauY6PpjW4)
+  - [**2.8.1 QuickSort Algorithm - Abdul Bari**](https://www.youtube.com/watch?v=7h1s2SojIRw)
+  - [**Learn Quick Sort in 13 minutes ⚡ - Bro Code**](https://www.youtube.com/watch?v=Vtckgz38QHs)
+  - [**Quick sort in 4 minutes - Michael Sambol**](https://www.youtube.com/watch?v=Hoixgm4-P4M)
+
+---
+
+## **Complexity Analysis**
+
+- **Time Complexity**:
+  - **Best Case**: O(n log n)
+  - **Average Case**: O(n log n)
+  - **Worst Case**: O(n^2)
+- **Space Complexity**: O(log n)
+
+---
+
+## **Calculating the Time Complexity Using Master Method**
+
+- **Master Theorem**: T(n) = a * T(n/b) + f(n<sup>d</sup>)
+  - If f(n) = O(n<sup>d</sup>), where d < log<sub>b</sub>a, then T(n) = O(n<sup>log<sub>b</sub>a</sup>)
+  - If f(n) = O(n<sup>d</sup>), where d = log<sub>b</sub>a, then T(n) = O(n<sup>d</sup> * log n)
+  - If f(n) = O(n<sup>d</sup>), where d > log<sub>b</sub>a, then T(n) = O(f(n))
+- **Quick Sort**:
+  - T(n) = 2 * T(n/2) + O(n)
+  - a = 2, b = 2, f(n) = O(n)
+  - d = 1, log<sub>2</sub>2 = 1
+  - T(n) = O(n log<sub>2</sub>n)
+  - **Time Complexity**: O(n log<sub>2</sub>n)
+
+---
