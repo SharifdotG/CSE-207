@@ -102,10 +102,10 @@ int binarySearch(int array[], int target, int left, int right) {
   - If f(n) = O(n<sup>d</sup>), where d < log<sub>b</sub>a, then T(n) = O(n<sup>log<sub>b</sub>a</sup>)
   - If f(n) = O(n<sup>d</sup>), where d = log<sub>b</sub>a, then T(n) = O(n<sup>d</sup> * log n)
   - If f(n) = O(n<sup>d</sup>), where d > log<sub>b</sub>a, then T(n) = O(f(n))
-- **Binary Search**: T(n) = T(n/2) + O(1)
+- **Binary Search**:
+  - T(n) = 1 * T(n/2) + O(1)
   - a = 1, b = 2, f(n) = O(1)
   - d = 0, log<sub>2</sub>1 = 0
-  - d = log<sub>2</sub>1
   - T(n) = O(log<sub>2</sub>n)
   - **Time Complexity**: O(log<sub>2</sub>n)
 
