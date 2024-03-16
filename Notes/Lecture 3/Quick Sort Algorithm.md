@@ -116,6 +116,7 @@ void quickSort(int array[], int left, int right) {
   - T(n) = 2 * T(n/2) + O(n)
   - a = 2, b = 2, f(n) = O(n)
   - d = 1, log<sub>2</sub>2 = 1
+  - d = log<sub>b</sub>a
   - T(n) = O(n log<sub>2</sub>n)
   - **Time Complexity**: O(n log<sub>2</sub>n)
 

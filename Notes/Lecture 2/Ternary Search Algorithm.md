@@ -118,6 +118,7 @@ int ternarySearch(int array[], int target, int left, int right) {
   - T(n) = 1 * T(n/3) + O(1)
   - a = 1, b = 3, f(n) = O(1)
   - d = 0, log<sub>3</sub>1 = 0
+  - d = log<sub>b</sub>a
   - T(n) = O(log<sub>3</sub>n)
   - **Time Complexity**: O(log<sub>3</sub>n)
 
