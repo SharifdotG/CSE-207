@@ -66,13 +66,13 @@ int binarySearch(int array[], int target, int left, int right) {
 </p>
 
 - **Web Based Resources**:
-  - [GeeksforGeeks](https://www.geeksforgeeks.org/binary-search/)
-  - [javatpoint](https://www.javatpoint.com/binary-search)
-  - [Programiz](https://www.programiz.com/dsa/binary-search)
+  - [**GeeksforGeeks**](https://www.geeksforgeeks.org/binary-search/)
+  - [**Javatpoint**](https://www.javatpoint.com/binary-search)
+  - [**Programiz**](https://www.programiz.com/dsa/binary-search)
 - **Video Resources**:
-  - [Binary search in 4 minutes - Michael Sambol](https://www.youtube.com/watch?v=fDKIpRe8GW4)
-  - [Binary Search Algorithm in 100 Seconds - Fireship](https://www.youtube.com/watch?v=MFhxShGxHWc)
-  - [2.6.2 Binary Search Recursive Method - Abdul Bari](https://www.youtube.com/watch?v=uEUXGcc2VXM)
+  - [**Binary search in 4 minutes - Michael Sambol**](https://www.youtube.com/watch?v=fDKIpRe8GW4)
+  - [**Binary Search Algorithm in 100 Seconds - Fireship**](https://www.youtube.com/watch?v=MFhxShGxHWc)
+  - [**2.6.2 Binary Search Recursive Method - Abdul Bari**](https://www.youtube.com/watch?v=uEUXGcc2VXM)
 
 ---
 

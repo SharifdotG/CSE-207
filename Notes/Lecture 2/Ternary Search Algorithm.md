@@ -78,13 +78,13 @@ int ternarySearch(int array[], int target, int left, int right) {
 </p>
 
 - **Web Based Resources**:
-  - [GeeksforGeeks](https://www.geeksforgeeks.org/ternary-search/)
-  - [CP-Algorithms](https://cp-algorithms.com/num_methods/ternary_search.html)
-  - [Educative](https://www.educative.io/answers/what-is-the-ternary-search)
+  - [**GeeksforGeeks**](https://www.geeksforgeeks.org/ternary-search/)
+  - [**CP-Algorithms**](https://cp-algorithms.com/num_methods/ternary_search.html)
+  - [**Educative**](https://www.educative.io/answers/what-is-the-ternary-search)
 
 - **Video Resources**:
-  - [Ternary Search | Ternary Search with example | Easy explanation of Ternary Search - Code Wagon](https://www.youtube.com/watch?v=WyWL1PBNvb8)
-  - [Ternary Search in 4 min (Python) - Quoc Dat Phung](https://www.youtube.com/watch?v=o3HPRpbGlbI)
+  - [**Ternary Search | Ternary Search with example | Easy explanation of Ternary Search - Code Wagon**](https://www.youtube.com/watch?v=WyWL1PBNvb8)
+  - [**Ternary Search in 4 min (Python) - Quoc Dat Phung**](https://www.youtube.com/watch?v=o3HPRpbGlbI)
 
 ---
 

@@ -116,14 +116,14 @@ void mergeSort(int array[], int left, int right) {
 </p>
 
 - **Web Based Resources**:
-  - [GeeksforGeeks](https://www.geeksforgeeks.org/merge-sort/)
-  - [Programiz](https://www.programiz.com/dsa/merge-sort)
-  - [Javatpoint](https://www.javatpoint.com/merge-sort)
+  - [**GeeksforGeeks**](https://www.geeksforgeeks.org/merge-sort/)
+  - [**Programiz**](https://www.programiz.com/dsa/merge-sort)
+  - [**Javatpoint**](https://www.javatpoint.com/merge-sort)
 
 - **Video Resources**:
-  - [Learn Merge Sort in 13 minutes 🔪 - Bro Code](https://www.youtube.com/watch?v=3j0SWDX4AtU)
-  - [Merge sort in 3 minutes - Michael Sambol](https://www.youtube.com/watch?v=4VqmGXwpLqc)
-  - [2.7.2. Merge Sort Algorithm - Abdul Bari](https://www.youtube.com/watch?v=mB5HXBb_HY8)
+  - [**Learn Merge Sort in 13 minutes 🔪 - Bro Code**](https://www.youtube.com/watch?v=3j0SWDX4AtU)
+  - [**Merge sort in 3 minutes - Michael Sambol**](https://www.youtube.com/watch?v=4VqmGXwpLqc)
+  - [**2.7.2. Merge Sort Algorithm - Abdul Bari**](https://www.youtube.com/watch?v=mB5HXBb_HY8)
 
 ---
 
