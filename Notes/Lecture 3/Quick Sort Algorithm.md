@@ -89,6 +89,7 @@ void quickSort(int array[], int left, int right) {
   - [**GeeksforGeeks**](https://www.geeksforgeeks.org/quick-sort/)
   - [**Programiz**](https://www.programiz.com/dsa/quick-sort)
   - [**JavaTPoint**](https://www.javatpoint.com/quick-sort)
+
 - **Video Resources**:
   - [**2.8.1 QuickSort Algorithm - Abdul Bari**](https://www.youtube.com/watch?v=7h1s2SojIRw)
   - [**Learn Quick Sort in 13 minutes ⚡ - Bro Code**](https://www.youtube.com/watch?v=Vtckgz38QHs)

@@ -69,6 +69,7 @@ int binarySearch(int array[], int target, int left, int right) {
   - [**GeeksforGeeks**](https://www.geeksforgeeks.org/binary-search/)
   - [**Javatpoint**](https://www.javatpoint.com/binary-search)
   - [**Programiz**](https://www.programiz.com/dsa/binary-search)
+
 - **Video Resources**:
   - [**Binary search in 4 minutes - Michael Sambol**](https://www.youtube.com/watch?v=fDKIpRe8GW4)
   - [**Binary Search Algorithm in 100 Seconds - Fireship**](https://www.youtube.com/watch?v=MFhxShGxHWc)
