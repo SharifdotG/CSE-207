@@ -78,6 +78,16 @@ int binarySearch(int array[], int target, int left, int right) {
 
 ## **Complexity Analysis**
 
+- In the beginning, the array size is n.
+- After the first iteration, the array size becomes n/2.
+- After the second iteration, the array size becomes n/4 and so on.
+- So, after k iterations, the array size becomes n/2<sup>k</sup>.
+- The algorithm stops when the array size becomes 1.
+  - So, n/2<sup>k</sup> = 1.
+  - 2<sup>k</sup> = n.
+  - k = log<sub>2</sub>n.
+  - The time complexity of the binary search algorithm is O(log<sub>2</sub>n).
+
 - **Time Complexity**:
   - Best Case: O(1): The target element is found at the middle element.
   - Average Case: O(log<sub>2</sub>n): The target element is found after a few iterations.

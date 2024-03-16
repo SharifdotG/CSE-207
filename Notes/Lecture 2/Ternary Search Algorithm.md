@@ -90,6 +90,16 @@ int ternarySearch(int array[], int target, int left, int right) {
 
 ## **Complexity Analysis**
 
+- In the beginning, the array size is n.
+- After the first iteration, the array size becomes n/3.
+- After the second iteration, the array size becomes n/9 and so on.
+- So, after k iterations, the array size becomes n/3<sup>k</sup>.
+- The algorithm stops when the array size becomes 1.
+  - So, n/3<sup>k</sup> = 1
+  - 3<sup>k</sup> = n
+  - k = log<sub>3</sub>n
+  - **Time Complexity**: O(log<sub>3</sub>n)
+
 - **Time Complexity**:
   - Best Case: O(1): The target element is found at the first middle element.
   - Average Case: O(log<sub>3</sub>n): The target element is found after a few iterations.
@@ -101,9 +111,9 @@ int ternarySearch(int array[], int target, int left, int right) {
 ## **Calculating the Time Complexity Using Master Method**
 
 - **Master Theorem**: T(n) = a * T(n/b) + f(n<sup>d</sup>)
-  - If f(n) = O(n<sup>c</sup>), where d < log<sub>b</sub>a, then T(n) = O(n<sup>log<sub>b</sub>a</sup>)
-  - If f(n) = O(n<sup>c</sup>), where d = log<sub>b</sub>a, then T(n) = O(n<sup>d</sup> * log n)
-  - If f(n) = O(n<sup>c</sup>), where d > log<sub>b</sub>a, then T(n) = O(f(n))
+  - If f(n) = O(n<sup>d</sup>), where d < log<sub>b</sub>a, then T(n) = O(n<sup>log<sub>b</sub>a</sup>)
+  - If f(n) = O(n<sup>d</sup>), where d = log<sub>b</sub>a, then T(n) = O(n<sup>d</sup> * log n)
+  - If f(n) = O(n<sup>d</sup>), where d > log<sub>b</sub>a, then T(n) = O(f(n))
 - **Ternary Search**: T(n) = T(n/3) + O(1)
   - a = 1, b = 3, f(n) = O(1)
   - d = 0, log<sub>3</sub>1 = 0
