@@ -66,7 +66,7 @@ int binarySearch(int array[], int target, int left, int right) {
 </p>
 
 - **Web Based Resources**:
-  - [Geeks For Geeks](https://www.geeksforgeeks.org/binary-search/)
+  - [GeeksforGeeks](https://www.geeksforgeeks.org/binary-search/)
   - [javatpoint](https://www.javatpoint.com/binary-search)
   - [Programiz](https://www.programiz.com/dsa/binary-search)
 - **Video Resources**:
@@ -80,23 +80,23 @@ int binarySearch(int array[], int target, int left, int right) {
 
 - **Time Complexity**:
   - Best Case: O(1): The target element is found at the middle element.
-  - Average Case: O(log n): The target element is found after a few iterations.
-  - Worst Case: O(log n): The target element is found after a few iterations.
+  - Average Case: O(log<sub>2</sub>n): The target element is found after a few iterations.
+  - Worst Case: O(log<sub>2</sub>n): The target element is found after a few iterations.
 - **Space Complexity**: O(1): The space complexity is constant.
 
 ---
 
 ## **Calculating the Time Complexity Using Master Method**
 
-- **Master Theorem**: T(n) = a * T(n/b) + f(n<sup>c</sup>)
-  - If f(n) = O(n<sup>c</sup>), where c < log<sub>b</sub>a, then T(n) = O(n<sup>log<sub>b</sub>a</sup>)
-  - If f(n) = O(n<sup>c</sup>), where c = log<sub>b</sub>a, then T(n) = O(n<sup>c</sup> * log n)
-  - If f(n) = O(n<sup>c</sup>), where c > log<sub>b</sub>a, then T(n) = O(f(n))
-  - **Binary Search**: T(n) = T(n/2) + O(1)
-    - a = 1, b = 2, f(n) = O(1)
-    - c = 0, log<sub>2</sub>1 = 0
-    - c = log<sub>2</sub>1
-    - T(n) = O(log n)
-    - **Time Complexity**: O(log n)
+- **Master Theorem**: T(n) = a * T(n/b) + f(n<sup>d</sup>)
+  - If f(n) = O(n<sup>d</sup>), where d < log<sub>b</sub>a, then T(n) = O(n<sup>log<sub>b</sub>a</sup>)
+  - If f(n) = O(n<sup>d</sup>), where d = log<sub>b</sub>a, then T(n) = O(n<sup>d</sup> * log n)
+  - If f(n) = O(n<sup>d</sup>), where d > log<sub>b</sub>a, then T(n) = O(f(n))
+- **Binary Search**: T(n) = T(n/2) + O(1)
+  - a = 1, b = 2, f(n) = O(1)
+  - d = 0, log<sub>2</sub>1 = 0
+  - d = log<sub>2</sub>1
+  - T(n) = O(log<sub>2</sub>n)
+  - **Time Complexity**: O(log<sub>2</sub>n)
 
 ---

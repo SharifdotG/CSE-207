@@ -76,3 +76,39 @@ int ternarySearch(int array[], int target, int left, int right) {
 <p align="center">
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/ternaryS-3.png" alt="Ternary Search Algorithm"/>
 </p>
+
+- **Web Based Resources**:
+  - [GeeksforGeeks](https://www.geeksforgeeks.org/ternary-search/)
+  - [CP-Algorithms](https://cp-algorithms.com/num_methods/ternary_search.html)
+  - [Educative](https://www.educative.io/answers/what-is-the-ternary-search)
+
+- **Video Resources**:
+  - [Ternary Search | Ternary Search with example | Easy explanation of Ternary Search - Code Wagon](https://www.youtube.com/watch?v=WyWL1PBNvb8)
+  - [Ternary Search in 4 min (Python) - Quoc Dat Phung](https://www.youtube.com/watch?v=o3HPRpbGlbI)
+
+---
+
+## **Complexity Analysis**
+
+- **Time Complexity**:
+  - Best Case: O(1): The target element is found at the first middle element.
+  - Average Case: O(log<sub>3</sub>n): The target element is found after a few iterations.
+  - Worst Case: O(log<sub>3</sub>n)): The target element is found after a few iterations.
+- **Space Complexity**: O(1): The space complexity of the **ternary search** algorithm is **constant**.
+
+---
+
+## **Calculating the Time Complexity Using Master Method**
+
+- **Master Theorem**: T(n) = a * T(n/b) + f(n<sup>d</sup>)
+  - If f(n) = O(n<sup>c</sup>), where d < log<sub>b</sub>a, then T(n) = O(n<sup>log<sub>b</sub>a</sup>)
+  - If f(n) = O(n<sup>c</sup>), where d = log<sub>b</sub>a, then T(n) = O(n<sup>d</sup> * log n)
+  - If f(n) = O(n<sup>c</sup>), where d > log<sub>b</sub>a, then T(n) = O(f(n))
+- **Ternary Search**: T(n) = T(n/3) + O(1)
+  - a = 1, b = 3, f(n) = O(1)
+  - d = 0, log<sub>3</sub>1 = 0
+  - d = log<sub>3</sub>1
+  - T(n) = O(log<sub>3</sub>n)
+  - **Time Complexity**: O(log<sub>3</sub>n)
+
+---
