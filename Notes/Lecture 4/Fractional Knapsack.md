@@ -75,7 +75,7 @@ FractionalKnapsack(items[], n, capacity) {
 ## **Simulation/Visualization**
 
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Knapsack_problem_dynamic_programming.gif" alt="0/1 Knapsack Problem - Dynamic Programming"/>
+    <img src="https://www.geeksforgeeks.org/wp-content/uploads/Fractional-Knapsackexample-min-768x384.png" alt="0/1 Knapsack Problem - Dynamic Programming"/>
 </p>
 
 - **Web Based Resources**:
