@@ -16,18 +16,6 @@
 
 ---
 
-## **Problem Statement**
-
-- Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible.
-  - **Input**: A set of items, each with a weight and a value, and a knapsack capacity.
-  - **Output**: The number of each item to include in a collection so that the total weight is less than or equal to the knapsack capacity and the total value is as large as possible.
-  - | Item | 1 | 2 | 3 | 4 |
-    | --- | --- | --- | --- | --- |
-    | Weight | 2 | 3 | 4 | 5 |
-    | Value | 3 | 4 | 5 | 6 |
-
----
-
 ## **0/1 Knapsack Problem - Brute Force Approach**
 
 - The **Brute Force Approach** to solve the **0/1 Knapsack Problem** is to use **Recursion**.
