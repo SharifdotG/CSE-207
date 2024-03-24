@@ -36,7 +36,7 @@
      - If the adjacent vertex is not visited, enqueue it and mark it as visited.
    - Repeat the process until the **Queue** is empty.
    - The vertices will be visited in the order of traversal.
-   - The **BFS (Breadth First Search)** algorithm is complete when all the vertices are visited.
+6. The **BFS (Breadth First Search)** algorithm is complete when all the vertices are visited.
 
 ---
 
