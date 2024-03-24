@@ -46,6 +46,10 @@
 - The **Greedy Algorithm** to solve the **Job Sequencing with Deadline** problem is as follows:
 
 1. Sort the jobs in descending order of their profits.
+2. Initialize an empty schedule and an array to keep track of the slots.
+3. Iterate through the jobs and for each job, find the latest slot available before the deadline and assign the job to that slot.
+4. Calculate the total profit earned by scheduling the jobs.
+5. Return the total profit earned.
 
 ---
 
