@@ -73,7 +73,7 @@
   - A connected component of an undirected graph is a maximal set of vertices such that there is a path between every pair of vertices.
 
 <p align="center">
-    <img src="https://www.researchgate.net/publication/340015228/figure/fig1/AS:870805537845254@1584627627694/An-example-graph-with-3-connected-components.png" alt="Connected Components"/>
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220905132251/graph.jpg" alt="Connected Components"/>
 </p>
 
 - **Trees**: A tree is a connected graph with no cycles.
