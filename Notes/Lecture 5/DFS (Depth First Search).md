@@ -77,6 +77,6 @@ void dfs(int graph[5][5], int start, bool visited[5]) {
 - **Video Resources**:
   - [**5.1 Graph Traversals - BFS & DFS -Breadth First Search and Depth First Search - Abdul Bari**](https://www.youtube.com/watch?v=pcKY4hjDrxk)
   - [**Depth First Search Algorithm | Graph Theory - WilliamFiset**](https://www.youtube.com/watch?v=7fujbpJ0LB4)
-  - [**Breadth-first search in 4 minutes - Michael Sambol**](https://www.youtube.com/watch?v=Urx87-NMm6c)
+  - [**Depth-first search in 4 minutes - Michael Sambol**](https://www.youtube.com/watch?v=Urx87-NMm6c)
 
 ---
