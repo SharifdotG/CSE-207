@@ -50,16 +50,16 @@
 ## **Graph Representation**
 
 - **Graphs** can be represented in two ways:
+- **Adjacency List**: An array of lists where each list represents the edges of a vertex.
+  - The array is of size **V** where **V** is the number of vertices.
+  - The array is sparse for sparse graphs.
+  - The array is dense for dense graphs.
 - **Adjacency Matrix**: A 2D array of size **V x V** where **V** is the number of vertices.
   - The elements of the matrix represent the edges between the vertices.
   - The matrix is symmetric for undirected graphs.
   - The matrix is not symmetric for directed graphs.
   - The matrix is sparse for sparse graphs.
   - The matrix is dense for dense graphs.
-- **Adjacency List**: An array of lists where each list represents the edges of a vertex.
-  - The array is of size **V** where **V** is the number of vertices.
-  - The array is sparse for sparse graphs.
-  - The array is dense for dense graphs.
 
 <p align="center">
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230727154843/Graph-Representation-of-Undirected-graph-to-Adjacency-List.png" alt="Adjacency List"/>
