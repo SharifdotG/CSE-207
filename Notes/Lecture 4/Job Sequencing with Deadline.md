@@ -54,6 +54,10 @@
 - The **Pseudocode** for the **Greedy Algorithm** to solve the **Job Sequencing with Deadline** problem is as follows:
 
 ```cpp
+bool compare(Job a, Job b) {
+    return (a.profit > b.profit);
+}
+
 JobSequencing(int jobs[], int n) {
     sort(jobs, jobs + n, compare);
 
