@@ -24,13 +24,13 @@
 ## **Algorithm**
 
 - The **Greedy Algorithm** to solve the **Fractional Knapsack Problem** is as follows:
-  1. Sort the items based on their value-to-weight ratio in non-increasing order.
-  2. Initialize the total value of the knapsack to 0.
-  3. For each item in the sorted list of items:
-     - If the weight of the item is less than or equal to the remaining capacity of the knapsack, add the entire item to the knapsack and update the remaining capacity of the knapsack.
-     - If the weight of the item is greater than the remaining capacity of the knapsack, add a fraction of the item to the knapsack such that the entire capacity of the knapsack is utilized and update the remaining capacity of the knapsack to 0.
-  4. Return the total value of the knapsack.
-  5. End.
+
+1. **Sort** the items based on their value-to-weight ratio in non-increasing order.
+2. If the index is greater than or equal to the number of items or the capacity of the knapsack is less than or equal to 0, return 0.
+3. If the weight of the item at the current index is less than or equal to the remaining capacity of the knapsack, add the entire item to the knapsack and update the remaining capacity of the knapsack.
+4. If the weight of the item at the current index is greater than the remaining capacity of the knapsack, add a fraction of the item to the knapsack such that the entire capacity of the knapsack is utilized and the remaining capacity of the knapsack is updated to 0.
+5. Return the total value of the knapsack.
+6. **End**.
 
 ---
 
