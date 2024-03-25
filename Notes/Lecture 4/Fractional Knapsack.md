@@ -39,20 +39,28 @@
 - The **Pseudocode** for the **Greedy Algorithm** to solve the **Fractional Knapsack Problem** is as follows:
 
 ```cpp
-FractionalKnapsack(items[], n, capacity) {
-    sort(items, n, value-to-weight ratio in non-increasing order);
-    totalValue = 0;
-    for (i = 0; i < n; i++) {
-        if (items[i].weight <= capacity) {
-            totalValue += items[i].value;
-            capacity -= items[i].weight;
-        } else {
-            totalValue += (capacity * items[i].value-to-weight ratio);
-            capacity = 0;
-            break;
-        }
+struct Item {
+    int value, weight;
+};
+
+bool compare(Item item1, Item item2) {
+    double ratio1 = (double) item1.value / item1.weight;
+    double ratio2 = (double) item2.value / item2.weight;
+    return ratio1 > ratio2;
+}
+
+double fractionalKnapsack(int capacity, Item items[], int n, int index) {
+    sort(items, items + n, compare);
+    if (index >= n || capacity <= 0) {
+        return 0;
     }
-    return totalValue;
+
+    if (items[index].weight <= capacity) {
+        return items[index].value + fractionalKnapsack(capacity - items[index].weight, items, n, index + 1);
+    }
+
+    double fraction = (double) capacity / items[index].weight;
+    return items[index].value * fraction + fractionalKnapsack(0, items, n, index + 1);
 }
 ```
 
