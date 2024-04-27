@@ -52,14 +52,13 @@
 - **Output**: The starting indices of the occurrences of the pattern `P` in the text `T`.
 - **Steps**:
   1. Compute the hash value of the pattern `P` and the first window of the text `T`.
-  2. Slide the window of the pattern `P` over the text `T` from left to right.
-  3. Compute the hash value of the next window of the text `T` using the rolling hash function.
-  4. If the hash values match, compare the characters of the pattern `P` and the text `T`.
-  5. If the characters match, check if the pattern `P` is found in the text `T`.
-  6. If the pattern `P` is found, store the starting index of the occurrence.
-  7. Continue sliding the window of the pattern `P` over the text `T` until the end of the text `T`.
-  8. Return the starting indices of the occurrences of the pattern `P` in the text `T`.
-  9. **End**.
+  2. Slide the window of the pattern over the text and compute the hash value of the pattern and the text at each step.
+  3. If the hash values match, compare the characters of the pattern and the text.
+  4. If the characters match, check if the pattern is found in the text.
+  5. If the pattern is found, store the starting index of the occurrence.
+  6. Continue the process until the pattern is found in the text.
+  7. Return the starting indices of the occurrences of the pattern in the text.
+  8. **End**.
 
 ---
 
