@@ -110,6 +110,6 @@ void kruskal(int graph[5][5], int edges[5][5]) {
   - [**3.5 Prims and Kruskals Algorithms - Greedy Method - Abdul Bari**](https://www.youtube.com/watch?v=4ZlRH0eK-qQ)
   - [**Kruskal's Algorithm - Lalitha Natraj**](https://www.youtube.com/watch?v=ivcbaIhrcsE)
   - [**Kruskal's algorithm in 2 minutes - Michael Sambol**](https://www.youtube.com/watch?v=71UQH7Pr9kU)
-  - [**Graph Data Structure 4. Dijkstra’s Shortest Path Algorithm - Computer Science**](https://www.youtube.com/watch?v=pVfj6mxhdMw)
+  - [**Kruskal's Algorithm: Minimum Spanning Tree (MST) - EducateYouself**](https://www.youtube.com/watch?v=Yo7sddEVONg)
 
 ---
