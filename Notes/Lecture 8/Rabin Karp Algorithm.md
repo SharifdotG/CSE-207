@@ -129,7 +129,7 @@ void RabinKarp(string text, string pattern) {
 ## **Simulation/Visualization**
 
 <p align="center">
-    <img src="https://d18l82el6cdm1i.cloudfront.net/uploads/uIPjisbiCM-bruteforce.gif" alt="0/1 Knapsack Problem - Dynamic Programming"/>
+    <img src="https://d18l82el6cdm1i.cloudfront.net/uploads/uIPjisbiCM-bruteforce.gif" alt="Rabin-Karp Algorithm"/>
 </p>
 
 - **Web Based Resources**:
