@@ -120,7 +120,15 @@ The algorithm for the above problem can be designed as follows:
 4. Calculate the total profit earned by scheduling the jobs.
 5. Return the total profit earned.
 
-## 3. a) Ghum Theke Uthe
+## 3. a)
+
+<img src="https://scontent.fdac24-2.fna.fbcdn.net/v/t1.15752-9/440893316_1086213292470877_6770912758542901618_n.png?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEVgpfi-9wxDzFH6mZ6TY6sJVzBcQgjzpclXMFxCCPOlyvRBGD0C2Vq2vS6OxcFQ24lR7lH0JwQ15Cw3Wjmujxy&_nc_ohc=ucyryZsTMgcQ7kNvgGchPFX&_nc_ht=scontent.fdac24-2.fna&oh=03_Q7cD1QFc3GjYTcmFUuudSl866vC6ItNhaLddPdI6SPlqLG4Rcw&oe=66701F31" alt="Graph">
+
+**Solution:**
+
+<img src="https://images2.imgbox.com/6a/5e/AA6akI3L_o.jpg" alt="Graph">
+<img src="https://images2.imgbox.com/cf/d7/eY4v0amp_o.jpg" alt="Graph">
+<img src="https://images2.imgbox.com/93/05/XXK1bgMk_o.jpg" alt="Graph">
 
 ## 3. b) You have an NxN chessboard and the goal is to place N Queens on the board so that no two Queens threaten each other. Develop the backtracking algorithm to find a solution for an NxN chessboard
 
@@ -136,7 +144,16 @@ The backtracking algorithm to solve the N-Queens problem can be implemented as f
 8. If no solution is found, backtrack and try another column.
 9. Continue backtracking until all possible solutions are found.
 
-## 4. a) Ghum Theke Uthe
+## 4. a)
+
+<img src="https://scontent.fdac24-3.fna.fbcdn.net/v/t1.15752-9/441057153_1019884302892353_5869352813757415151_n.png?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGwjmKwLp_jq9xdhOPMhcNOlWOYxiUFu9SVY5jGJQW71E-BsgauMmpzgg0y9j-CkhHhh3xW7p9Z8oys7fgnpwPQ&_nc_ohc=0oosu5AeKboQ7kNvgHq3OUA&_nc_ht=scontent.fdac24-3.fna&oh=03_Q7cD1QGYASeiP0J-LH1X7b11ejDekWWcikGAV8eQv6ud03fomw&oe=6670252B" alt="Graph">
+
+**Solution:**
+
+<img src="https://images2.imgbox.com/37/23/FRahJbM6_o.jpg" alt="Graph">
+<img src="https://images2.imgbox.com/0a/d4/j7TQDinM_o.jpg" alt="Graph">
+<img src="https://images2.imgbox.com/04/d6/NVSvRlU1_o.jpg" alt="Graph">
+<img src="https://images2.imgbox.com/bd/c0/6MPP1OP1_o.jpg" alt="Graph">
 
 ## 4. b) You are preparing for a road trip across Bangladesh with a network of cities connected by highways. Each highway has a distance associated with it. Write an algorithm to find the shortest path from your city to all other cities
 
@@ -153,7 +170,16 @@ The algorithm to find the shortest path from a source city to all other cities i
    - Repeat the process until all cities are visited.
 6. Return the distance array containing the shortest distances from the source city to all other cities.
 
-## 4 OR a) Ghum Theke Uthe
+## 4 OR a)
+
+<img src="https://scontent.fdac24-5.fna.fbcdn.net/v/t1.15752-9/441059186_3717046148617134_256528073936047214_n.png?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGVj3a3inOpKk2-ZF6-bF535TdRv8BhCjTlN1G_wGEKNHg69S3YgecR_aMGMWgQKefMFrY1lKjCTx6wojEYamXu&_nc_ohc=kGt_lYViBngQ7kNvgFjFiyw&_nc_ht=scontent.fdac24-5.fna&oh=03_Q7cD1QGA3FqgGkzrOIlKCRPKUw2wxhDMbdh6Ng0TBjzba2PXBw&oe=66700029" alt="Graph">
+
+**Solution:**
+
+<img src="https://images2.imgbox.com/32/e6/JfSzuLgj_o.jpg" alt="Graph">
+<img src="https://images2.imgbox.com/b8/29/yeLrEe6W_o.jpg" alt="Graph">
+<img src="https://images2.imgbox.com/f0/63/yCzDSuii_o.jpg" alt="Graph">
+<img src="https://images2.imgbox.com/44/2c/Bs1a7k26_o.jpg" alt="Graph">
 
 ## 4 OR b) Write a detailed algorithm for finding a Minimum Spanning Tree (MST) in a weighted, connected graph. Include the key steps and necessary explanations for your algorithm
 
@@ -165,7 +191,16 @@ The algorithm for finding a Minimum Spanning Tree (MST) in a weighted, connected
    - If the edge connects a vertex that is not part of the Minimum Spanning Tree, add the edge and the vertex to the Minimum Spanning Tree.
 3. Return the Minimum Spanning Tree.
 
-## 5. a) Ghum Theke Uthe
+## 5. a)
+
+<img src="https://scontent.fdac24-1.fna.fbcdn.net/v/t1.15752-9/436723566_461961189654581_3895085060744385569_n.png?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE0uze_kmaHjpZk3-ZfVjgmmP4fsRMBr_eY_h-xEwGv9xJnH6AG-Zmtf7DXA6AzxOudzxFowAnZapWzHtMAazjh&_nc_ohc=nPiIhV8W9hYQ7kNvgF-2n-i&_nc_ht=scontent.fdac24-1.fna&oh=03_Q7cD1QEDjcw54sMv7eodhsmaZB5vF47JNYXz6rYHzKGT9nl0Hg&oe=667023DD" alt="Graph">
+
+**Solution:**
+
+<img src="https://images2.imgbox.com/41/43/b0reMfqY_o.jpg" alt="Graph">
+<img src="https://images2.imgbox.com/70/0b/I0ZVZXBx_o.jpg" alt="Graph">
+<img src="https://images2.imgbox.com/dc/be/8JGBwQoP_o.jpg" alt="Graph">
+<img src="https://images2.imgbox.com/c4/1c/xOnRvQTV_o.jpg" alt="Graph">
 
 ## 5. b) Analyze the time complexity of Rabins-Karp Algorithm
 
