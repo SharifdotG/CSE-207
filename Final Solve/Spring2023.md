@@ -30,7 +30,7 @@ int knapsack(int weights[], int values[], int n, int capacity) {
 
 1. **Decision Making:** DP Considers all possible combinations and makes decisions based on previously computed optimal solutions. Meanwhile, Greedy makes decisions based on the current best choice without considering future consequences.
 2. **Optimality:** DP guarantees finding the optimal solution by exploring all possibilities and using previously solved subproblems. But Greedy does not guarantee the optimal solution in all cases, as it might overlook combinations that could lead to a better solution.
-3. **Complexity:** DP ypically has a higher time complexity (O(nW) for the Knapsack problem, where n is the number of items and W is the capacity) but ensures optimal results. While Greedy often has a lower time complexity (O(n log n) for sorting plus O(n) for selection) but can lead to suboptimal solutions.
+3. **Complexity:** DP typically has a higher time complexity (O(nW) for the Knapsack problem, where n is the number of items and W is the capacity) but ensures optimal results. While Greedy often has a lower time complexity (O(n log n) for sorting plus O(n) for selection) but can lead to suboptimal solutions.
 
 **Reasons to Choose DP Over Greedy:**
 
