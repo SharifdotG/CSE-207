@@ -37,6 +37,7 @@
 
 - The **Greedy Algorithm** to solve the **Coin Change Problem** is as follows:
 
+0. Sort the coins in descending order.
 1. If the amount is **0**, return **0**.
 2. If the denomination of the coin is greater than the amount, move to the next smaller denomination coin.
 3. Otherwise, add the coin to the change and reduce the amount by the denomination of the coin.
