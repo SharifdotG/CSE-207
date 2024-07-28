@@ -27,3 +27,4 @@ This course is designed to provide students with a solid foundation in algorithm
   - [Lecture 9: Approximation Algorithms](/Notes/Lecture%209/): Approximation Algorithms, Vertex Cover, Travelling Salesman Problem, and many more.
 - **[Mid Question Solution](/Mid%20Solve/)**: Contains solutions of the Mid questions of Spring 2023 semester.
 - **[Final Question Solution](/Final%20Solve/)**: Contains solutions of the Final questions of Spring 2023 semester.
+- **[README.md](/README.md)**: This file.
